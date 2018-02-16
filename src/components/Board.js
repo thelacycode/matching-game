@@ -5,7 +5,7 @@ class Board extends React.Component {
   render() {
     return(
       <div className='game-board'>
-        <p className="game-text">Game Board</p>
+        <h2 className="game-text">Game Board</h2>
       </div>
     )
 }
