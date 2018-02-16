@@ -6,17 +6,19 @@ class App extends Component {
   render() {
     return (
         <div className="game">
-          <div className="board-size">
-            <div className="size-select size-10">10</div>
-            <div className="size-select size-25">25</div>
-            <h2 className="size-title">Number Of Pictures</h2>
+          <div className='wrapper'>
+          <div className="grid-size">
+            <div className="select-btn size-select size-10">10</div>
+            <div className="select-btn size-select size-25">25</div>
+            <h2 className="title size-title">Number Of Pictures</h2>
           </div>
-          <div className="catergory">
-            <div className="cat-select select-computers">Computers</div>
-            <div className="cat-select select-animals">Animals</div>
-            <div className="cat-select select-sports">Sports</div>
-            <h2 className="cat-title">Select Category</h2>
+          <div className="category">
+            <div className="select-btn  cat-select select-computers">Computers</div>
+            <div className="select-btn  cat-select select-animals">Animals</div>
+            <div className="select-btn  cat-select select-sports">Sports</div>
+            <h2 className="title cat-title">Select Category</h2>
           </div>
+        </div>
           <Board />
         </div>
     );
